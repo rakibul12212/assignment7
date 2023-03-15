@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question and Answer</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-sans p-36">
+    <h1 class="font-extrabold pb-5">
+        <ul>Question and Answer :</ul>
+    </h1>
+    <div class="pt-5">
+        <h3 class="font-bold">What is the difference between map,filter,forEach and find function ?</h3>
+        <ol>
+            <li class="pb-2 text-slate-500"> The map() method loops through each element in array and calls the provided function for each element. This method creates a new array and doesn't alter the original array.</li>
+            <li class="pb-2 text-slate-500">The filter() method in JavaScript creates a new array with the elements that satisfies the provided condition. This method calls a provided function for each element in array and verifies the condition given in the provided function and passes
+                only those elements that satisfy the given condition.</li>
+            <li class="pb-2 text-slate-500">forEach() is used to execute the same code on every element in an array but does not change the array and it returns undefined.</li>
+            <li class="text-slate-500">Find() is also a search function like the previous but they differ in one small detail — this function returns only one match in an array. If in an array is more than one result, the function will return the first that has matched.</li>
+        </ol>
+    </div>
+    <div>
+        <h3 class="font-bold">What is the difference between local storage,session storage and cookies?</h3>
+        <ol>
+            <li class="pb-2 text-slate-500">Local storage is a feature in web browsers that allows a website to store data on a user's device. The data is stored persistently, meaning that it will still be available even after the user closes the browser. The data is associated with
+                a specific domain, and can only be accessed by the website that stored it. Local storage is typically used for storing larger amounts of data that need to persist across multiple visits to a website.</li>
+            <li class="pb-2 text-slate-500">Session storage is similar to local storage, but the data is only available for the duration of the browser session. This means that the data is lost when the user closes the browser. Like local storage, session storage is associated with
+                a specific domain and can only be accessed by the website that stored it. Session storage is typically used for storing temporary data that doesn't need to persist across multiple visits to a website.</li>
+            <li class="text-slate-500">Cookies are small text files that are stored on a user's device by a website. They are used to store information about the user, such as their preferences or login credentials. </li>
+        </ol>
+    </div>
+
+    <div>
+        <h3 class="font-bold">What is eventLoop? and how it works?</h3>
+        <p class="text-slate-500">It's a key concept in the JavaScript language that is used to handle asynchronous code execution. It is responsible for managing the flow of the program by monitoring the execution stack and the message queue. </p>
+    </div>
+
+    <h3 class="font-bold">what will do quizTImer & chooseQuiz function in no-change.js file?</h3>
+    <div>
+        <ol>
+            <li class="pb-2 text-slate-500">quizTImer: we useing eventLoop in noChange.js file we can see the timer colour change after 60 second </li>
+            <li class="text-slate-500">chooseQuiz: we use this fpr collect answer from user </li>
+
+        </ol>
+    </div>
+
+</html>
